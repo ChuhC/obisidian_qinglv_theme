@@ -2,13 +2,9 @@
 
 简体中文 | [English](README.md)
 
+![石青观澜——把知识写成一幅长卷](assets/readme-hero-zh.png)
+
 一套从中国青绿山水的矿物设色、长卷节奏与层叠空间中提取设计语言的 Obsidian 主题。
-
-![石青观澜晴本](assets/preview-light.png)
-
-![石青观澜夜航](assets/preview-dark.png)
-
-> `screenshot.png` 与 `screenshot-dark.png` 保留为 Obsidian 社区主题目录需要的 512×288 缩略图；这里展示的是用于在 GitHub 查看细节的高清预览图。
 
 ## 两套外观
 
@@ -16,6 +12,12 @@
 
 - **晴本**：深石青应用外壳包围温润的岩纸色正文，适合长时间阅读与写作。
 - **夜航**：蓝黑色写作场配合浅墨文字，延续同一套石青、石绿层级。
+
+![石青观澜晴本](assets/preview-light.png)
+
+![石青观澜夜航](assets/preview-dark.png)
+
+> `screenshot.png` 与 `screenshot-dark.png` 保留为 Obsidian 社区主题目录需要的 512×288 缩略图；这里展示的是用于在 GitHub 查看细节的高清预览图。
 
 两种外观都把山水作为左侧文件树底部的低对比度衬底，文件列表可在其上方完整滚动，不再单独占用一块空间。正文与右侧栏不放装饰，避免遮挡写作、导航、属性、大纲以及插件输入框。
 

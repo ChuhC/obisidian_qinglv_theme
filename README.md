@@ -2,13 +2,9 @@
 
 [简体中文](README.zh-CN.md) | English
 
+![Shiqing Guanlan — knowledge, unfolding like a handscroll](assets/readme-hero-en.png)
+
 An Obsidian theme inspired by the mineral blues and greens, handscroll rhythm, and layered distance of Chinese *qinglü shanshui* (青绿山水, blue-green landscape painting).
-
-![Shiqing Guanlan in Light mode](assets/preview-light.png)
-
-![Shiqing Guanlan in Dark mode](assets/preview-dark.png)
-
-> The 512×288 `screenshot.png` and `screenshot-dark.png` files are retained for the Obsidian Community Theme directory; these full-size previews are for close inspection on GitHub.
 
 ## Two appearances
 
@@ -16,6 +12,12 @@ Shiqing Guanlan follows Obsidian's native appearance setting. It does not add a 
 
 - **Qingben · 晴本** — warm stone-paper notes within a deep mineral-blue application shell.
 - **Night Passage · 夜航** — a blue-black writing field with pale ink text and the same azurite/malachite hierarchy.
+
+![Shiqing Guanlan in Light mode](assets/preview-light.png)
+
+![Shiqing Guanlan in Dark mode](assets/preview-dark.png)
+
+> The 512×288 `screenshot.png` and `screenshot-dark.png` files are retained for the Obsidian Community Theme directory; these full-size previews are for close inspection on GitHub.
 
 Both appearances use the landscape as a subdued backdrop at the bottom of the left file explorer. The file list scrolls above it instead of losing space to a separate image zone. The editor and right sidebar remain decoration-free so that writing, navigation, properties, outlines, and plugin inputs stay unobstructed.
 
