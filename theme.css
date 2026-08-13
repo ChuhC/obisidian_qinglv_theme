@@ -308,6 +308,26 @@ body .mod-left-split .workspace-leaf-content[data-type="file-explorer"]::before 
   mask-image: linear-gradient(to bottom, transparent 0, rgb(0 0 0 / 45%) 22%, #000 48%);
 }
 
+/* A restrained mud-gold ridge layer catches the principal folds without
+   turning the landscape into a continuous decorative outline. */
+body .mod-left-split .workspace-leaf-content[data-type="file-explorer"]::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 190px;
+  pointer-events: none;
+  opacity: 0.88;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 150' preserveAspectRatio='none'%3E%3Cg fill='none' stroke='%23c8a75e' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke-width='1.7' d='M0 132c14-10 23-23 30-38 6-13 9-29 16-43 6-12 15-20 27-22 9-3 17 1 25-1 10-2 17-7 27-5'/%3E%3Cpath stroke-width='1.45' opacity='.92' d='M125 23c13 2 19 12 24 24 5 13 8 27 16 38 7 12 16 18 27 19'/%3E%3Cpath stroke-width='1.25' opacity='.82' d='M188 113c8-13 18-26 31-30 9-3 17 1 22 9'/%3E%3Cpath stroke-width='1.1' opacity='.76' stroke-dasharray='12 7' d='M25 116c16-11 27-27 34-45 5-13 9-26 18-36M76 118c8-14 11-29 12-45 1-13 0-26 4-38M104 129c9-11 15-23 19-36 4-12 5-24 5-36'/%3E%3Cpath stroke-width='1' opacity='.68' stroke-dasharray='10 8' d='M159 133c11-7 20-17 27-28M218 99c7 8 11 19 17 28M267 132c15 4 28 10 43 11M327 136c16-5 33-5 49 1'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 190px;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 26%, #000 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 26%, #000 90%, transparent 100%);
+}
+
 body.theme-light .mod-left-split .workspace-leaf-content[data-type="file-explorer"] .nav-files-container {
   position: relative;
   z-index: 1;
