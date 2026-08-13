@@ -63,13 +63,12 @@
 
 ## 安装
 
-### 手动安装
+### 通过 Obsidian 安装
 
-1. 从最新 Release 下载 `manifest.json` 与 `theme.css`。
-2. 在你的 Vault 内新建 `.obsidian/themes/Shiqing Guanlan/`。
-3. 将两个文件复制到该目录。
-4. 打开 Obsidian 的 **设置 → 外观 → 主题**。
-5. 选择 **Shiqing Guanlan**。
+1. 打开 Obsidian 的**设置**。
+2. 进入**外观**，在**主题**下点击**管理**。
+3. 在社区主题中搜索 **Shiqing Guanlan**。
+4. 点击**使用**。
 
 ### 切换晴本与夜航
 

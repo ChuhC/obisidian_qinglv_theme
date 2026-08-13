@@ -63,13 +63,12 @@ That spatial logic matters to the theme as much as the famous color. Shiqing Gua
 
 ## Installation
 
-### Install manually
+### Install from Obsidian
 
-1. Download `manifest.json` and `theme.css` from the latest release.
-2. In your vault, create `.obsidian/themes/Shiqing Guanlan/`.
-3. Copy both files into that folder.
-4. Open **Settings → Appearance → Themes** in Obsidian.
-5. Select **Shiqing Guanlan**.
+1. Open **Settings** in Obsidian.
+2. Go to **Appearance** and select **Manage** under **Themes**.
+3. Search for **Shiqing Guanlan** under Community themes.
+4. Select **Use**.
 
 ### Switch appearance
 
