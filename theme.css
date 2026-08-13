@@ -159,21 +159,21 @@ body.theme-dark {
 /* Complete mineral-blue application shell. Obsidian separates the macOS
    titlebar, root tab strip, sidebar tab strip, and activity ribbon, so each
    surface needs an explicit selector. */
-body.theme-light .titlebar,
-body.theme-light .titlebar-inner,
-body.theme-light .titlebar-button-container,
-body.theme-light .workspace-tabs.mod-top,
-body.theme-light .workspace-tabs.mod-top > .workspace-tab-header-container,
-body.theme-light .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header-container-inner,
-body.theme-light .workspace-tab-header-spacer,
-body.theme-light .workspace-tab-header-new-tab,
-body.theme-light .workspace-tab-header-tab-list,
-body.theme-light .workspace-ribbon,
-body.theme-light .workspace-ribbon.mod-left,
-body.theme-light .side-dock-ribbon,
-body.theme-light .side-dock-ribbon.mod-left {
-  background-color: #062733 !important;
-  border-color: #214a55 !important;
+html body.theme-light .titlebar,
+html body.theme-light .titlebar-inner,
+html body.theme-light .titlebar-button-container,
+html body.theme-light .workspace-tabs.mod-top,
+html body.theme-light .workspace-tabs.mod-top > .workspace-tab-header-container,
+html body.theme-light .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header-container-inner,
+html body.theme-light .workspace-tab-header-spacer,
+html body.theme-light .workspace-tab-header-new-tab,
+html body.theme-light .workspace-tab-header-tab-list,
+html body.theme-light .workspace-ribbon,
+html body.theme-light .workspace-ribbon.mod-left,
+html body.theme-light .side-dock-ribbon,
+html body.theme-light .side-dock-ribbon.mod-left {
+  background-color: #062733;
+  border-color: #214a55;
   color: #b9cbc4;
 }
 
@@ -186,7 +186,7 @@ body.theme-light .workspace-tabs.mod-top .workspace-tab-header-new-tab,
 body.theme-light .workspace-tabs.mod-top .workspace-tab-header-tab-list,
 body.theme-light .workspace-ribbon .clickable-icon,
 body.theme-light .side-dock-ribbon-action {
-  color: #a9bdb6 !important;
+  color: #a9bdb6;
 }
 
 body.theme-light .titlebar-button:hover,
@@ -195,20 +195,20 @@ body.theme-light .workspace-tabs.mod-top .workspace-tab-header-new-tab:hover,
 body.theme-light .workspace-tabs.mod-top .workspace-tab-header-tab-list:hover,
 body.theme-light .workspace-ribbon .clickable-icon:hover,
 body.theme-light .side-dock-ribbon-action:hover {
-  color: #f1f4ef !important;
-  background-color: rgb(73 145 121 / 18%) !important;
+  color: #f1f4ef;
+  background-color: rgb(73 145 121 / 18%);
 }
 
 body.theme-light .workspace-tabs.mod-top .workspace-tab-header.is-active {
   color: #17313a;
-  background-color: #e9e6da !important;
+  background-color: #e9e6da;
   box-shadow: inset 0 2px 0 #b28f50;
 }
 
 body.theme-light .workspace-tabs.mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-title,
 body.theme-light .workspace-tabs.mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 body.theme-light .workspace-tabs.mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
-  color: #28464d !important;
+  color: #28464d;
 }
 
 body.theme-dark .titlebar,
@@ -217,8 +217,8 @@ body.theme-dark .titlebar-button-container,
 body.theme-dark .workspace-tabs.mod-top > .workspace-tab-header-container,
 body.theme-dark .workspace-ribbon,
 body.theme-dark .side-dock-ribbon {
-  background-color: #041923 !important;
-  border-color: #173d49 !important;
+  background-color: #041923;
+  border-color: #173d49;
 }
 
 /* The light mode keeps the writing sheet pale while the navigation remains
@@ -247,16 +247,16 @@ body.theme-light .mod-left-split {
   color: var(--text-normal);
 }
 
-/* Obsidian's translucency option applies a later transparent !important rule
-   to the activity ribbon. Keep the Qinglu shell opaque in that mode too. */
+/* Use an opaque background layer rather than competing with Obsidian's
+   translucency declaration for background-color. */
 body.theme-light.is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left,
 body.theme-light.is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left::before {
-  background-color: #062733 !important;
+  background-image: linear-gradient(#062733, #062733);
 }
 
 body.theme-dark.is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left,
 body.theme-dark.is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left::before {
-  background-color: #041923 !important;
+  background-image: linear-gradient(#041923, #041923);
 }
 
 /* Translucency also clears the separate vault-profile footer after theme
@@ -267,13 +267,13 @@ body.theme-light.is-translucent:not(.is-fullscreen) .mod-left-split .workspace-s
   --text-normal: #dce5df;
   --text-muted: #a9bdb6;
   --text-faint: #78928b;
-  background-color: #062733 !important;
+  background-color: #062733;
   border-top-color: #27515b;
 }
 
 body.theme-dark .mod-left-split .workspace-sidedock-vault-profile,
 body.theme-dark.is-translucent:not(.is-fullscreen) .mod-left-split .workspace-sidedock-vault-profile {
-  background-color: #041923 !important;
+  background-color: #041923;
   border-top-color: #173d49;
 }
 
@@ -431,42 +431,42 @@ body.theme-dark .mod-left-split .workspace-leaf-content {
   background-image: radial-gradient(circle at 50% 100%, rgb(51 128 104 / 8%), transparent 52%);
 }
 
-body.theme-dark .mod-right-split .workspace-leaf-content {
-  background-color: #08212d !important;
+html body.theme-dark .mod-right-split .workspace-leaf-content {
+  background-color: #08212d;
   background-image: none;
 }
 
-body.theme-dark .mod-right-split {
+html body.theme-dark .mod-right-split {
   --text-normal: #dfe6dd;
   --text-muted: #a9bdb6;
   --text-faint: #78928b;
   --bold-color: #eef2eb;
   --input-placeholder-color: #78928b;
-  background-color: #08212d !important;
+  background-color: #08212d;
   color: #dfe6dd;
 }
 
 /* Obsidian's translucency mode otherwise exposes the macOS material behind
    both sidebars in Night Passage. Keep navigation and interaction surfaces
    opaque while leaving the editor's dark field visually separate. */
-body.theme-dark .mod-left-split {
-  background-color: #061f2b !important;
+html body.theme-dark .mod-left-split {
+  background-color: #061f2b;
 }
 
-body.theme-dark .mod-left-split .workspace-leaf-content {
-  background-color: #061f2b !important;
+html body.theme-dark .mod-left-split .workspace-leaf-content {
+  background-color: #061f2b;
 }
 
 body.theme-dark .mod-left-split .view-content,
 body.theme-dark .mod-left-split .nav-files-container,
 body.theme-dark .mod-left-split .workspace-tab-container,
 body.theme-dark .mod-left-split .workspace-tabs {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 body.theme-dark .mod-right-split .view-content,
 body.theme-dark .mod-right-split .workspace-tab-container {
-  background-color: #08212d !important;
+  background-color: #08212d;
 }
 
 body.theme-dark .mod-left-split .workspace-leaf-content[data-type="file-explorer"] .nav-files-container {
@@ -656,12 +656,12 @@ textarea:focus,
 
 .cm-activeLine,
 .cm-activeLineGutter {
-  background: rgb(40 120 95 / 7%) !important;
+  background: rgb(40 120 95 / 7%);
 }
 
 .cm-cursor,
 .cm-dropCursor {
-  border-left-color: var(--sq-gold) !important;
+  border-left-color: var(--sq-gold);
 }
 
 .markdown-rendered blockquote {
@@ -832,8 +832,8 @@ button.mod-cta:hover,
   *,
   *::before,
   *::after {
-    scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
-    animation-duration: 0.01ms !important;
+    scroll-behavior: auto;
+    transition-duration: 0.01ms;
+    animation-duration: 0.01ms;
   }
 }
