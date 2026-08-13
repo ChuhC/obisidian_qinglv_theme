@@ -17,7 +17,7 @@ Shiqing Guanlan follows Obsidian's native appearance setting. It does not add a 
 - **Qingben · 晴本** — warm stone-paper notes within a deep mineral-blue application shell.
 - **Night Passage · 夜航** — a blue-black writing field with pale ink text and the same azurite/malachite hierarchy.
 
-Both appearances keep the landscape image at the bottom of the left file explorer. The editor and right sidebar remain decoration-free so that writing, navigation, properties, outlines, and plugin inputs stay unobstructed.
+Both appearances use the landscape as a subdued backdrop at the bottom of the left file explorer. The file list scrolls above it instead of losing space to a separate image zone. The editor and right sidebar remain decoration-free so that writing, navigation, properties, outlines, and plugin inputs stay unobstructed.
 
 ## Cultural background
 
@@ -54,7 +54,7 @@ That spatial logic matters to the theme as much as the famous color. Shiqing Gua
 - Readable Chinese and Latin font stacks.
 - High-contrast editor text, headings, links, lists, tables, blockquotes, code, tags, callouts, and checkboxes.
 - Coordinated title bar, tabs, ribbon, file explorer, menus, modals, and graph view.
-- A reserved 150 px landscape zone below the file tree, with no filename overlap.
+- A tinted landscape backdrop beneath the file tree, without reserving or blocking list space.
 - A decoration-free right sidebar for outlines, properties, chat panels, and inputs.
 - Opaque sidebar surfaces when Obsidian translucency is enabled.
 - Reduced-motion support.
