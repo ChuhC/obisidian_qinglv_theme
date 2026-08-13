@@ -6,6 +6,8 @@ An Obsidian theme inspired by the mineral blues and greens, handscroll rhythm, a
 
 ![Shiqing Guanlan in Light mode](screenshot.png)
 
+![Shiqing Guanlan in Dark mode](screenshot-dark.png)
+
 ## Two appearances
 
 Shiqing Guanlan follows Obsidian's native appearance setting. It does not add a separate theme switcher.

@@ -6,6 +6,8 @@
 
 ![石青观澜晴本](screenshot.png)
 
+![石青观澜夜航](screenshot-dark.png)
+
 ## 两套外观
 
 石青观澜跟随 Obsidian 原生的明暗外观设置，不另造一套切换机制。
