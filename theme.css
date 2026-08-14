@@ -156,12 +156,9 @@ body.theme-dark {
   --titlebar-text-color: #b9cbc4;
 }
 
-/* Complete mineral-blue application shell. Obsidian separates the macOS
-   titlebar, root tab strip, sidebar tab strip, and activity ribbon, so each
-   surface needs an explicit selector. */
-html body.theme-light .titlebar,
-html body.theme-light .titlebar-inner,
-html body.theme-light .titlebar-button-container,
+/* Complete mineral-blue application shell. Titlebar colours are supplied by
+   Obsidian's titlebar variables above. Do not paint its internal containers:
+   on Windows, they can overlap the native application menu. */
 html body.theme-light .workspace-tabs.mod-top,
 html body.theme-light .workspace-tabs.mod-top > .workspace-tab-header-container,
 html body.theme-light .workspace-tabs.mod-top > .workspace-tab-header-container .workspace-tab-header-container-inner,
@@ -211,9 +208,6 @@ body.theme-light .workspace-tabs.mod-top .workspace-tab-header.is-active .worksp
   color: #28464d;
 }
 
-body.theme-dark .titlebar,
-body.theme-dark .titlebar-inner,
-body.theme-dark .titlebar-button-container,
 body.theme-dark .workspace-tabs.mod-top > .workspace-tab-header-container,
 body.theme-dark .workspace-ribbon,
 body.theme-dark .side-dock-ribbon {
